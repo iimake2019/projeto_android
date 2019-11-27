@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco"
+    android:orientation="vertical"
+    tools:context=".imake.Activity.Activity.AlterarDadosActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/logo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/sfprodisplay_bold"
+                android:text="Alterar dados:"
+                android:textSize="28sp"
+                android:textColor="@color/texto"/>
+
+            <EditText
+                android:id="@+id/edtNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#C4C5C5"
+                android:fontFamily="@font/sfprodisplay_regular"
+                android:hint="Nome"
+                android:paddingVertical="16dp"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:drawablePadding="8dp"
+                android:drawableTint="#1A2024"
+                android:inputType="text"
+                android:textColorHint="#1A2024"/>
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#C4C5C5"
+                android:fontFamily="@font/sfprodisplay_regular"
+                android:hint="Endereço de email"
+                android:paddingVertical="16dp"
+                android:drawableStart="@drawable/ic_mail_black_24dp"
+                android:drawablePadding="8dp"
+                android:drawableTint="#1A2024"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#1A2024"/>
+
+            <EditText
+                android:id="@+id/edtCPF"
+                android:inputType="number"
+                android:hint="CPF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#C4C5C5"
+                android:fontFamily="@font/sfprodisplay_regular"
+                android:paddingVertical="16dp"
+                android:drawableStart="@drawable/ic_verified_user_black_24dp"
+                android:drawablePadding="8dp"
+                android:drawableTint="#1A2024"
+                android:textColorHint="#1A2024"/>
+
+            <EditText
+                android:id="@+id/edtTelefone"
+                android:hint="Telefone"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#C4C5C5"
+                android:fontFamily="@font/sfprodisplay_regular"
+                android:paddingVertical="16dp"
+                android:drawableStart="@drawable/ic_call_black_24dp"
+                android:drawablePadding="8dp"
+                android:drawableTint="#1A2024"
+                android:textColorHint="#1A2024" />
+
+            <EditText
+                android:id="@+id/edtEndereco"
+                android:hint="Endereço"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#C4C5C5"
+                android:fontFamily="@font/sfprodisplay_regular"
+                android:paddingVertical="16dp"
+                android:drawableStart="@drawable/ic_home_black_24dp"
+                android:drawablePadding="8dp"
+                android:drawableTint="#1A2024"
+                android:textColorHint="#1A2024" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_gravity="center">
+
+                <EditText
+                    android:id="@+id/edtCidade"
+                    android:hint="Cidade"
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
+                    android:backgroundTint="#C4C5C5"
+                    android:fontFamily="@font/sfprodisplay_regular"
+                    android:paddingVertical="16dp"
+                    android:drawableStart="@drawable/ic_location_city_black_24dp"
+                    android:drawablePadding="8dp"
+                    android:layout_weight="1"
+                    android:drawableTint="#1A2024"
+                    android:textColorHint="#1A2024"  />
+
+                <EditText
+                    android:id="@+id/edtIdade"
+                    android:inputType="text"
+                    android:hint="Idade"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#C4C5C5"
+                    android:fontFamily="@font/sfprodisplay_regular"
+                    android:paddingVertical="16dp"
+                    android:drawableStart="@drawable/ic_person_black_24dp"
+                    android:drawablePadding="8dp"
+                    android:layout_weight="2"
+                    android:drawableTint="#1A2024"
+                    android:textColorHint="#1A2024"  />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtCategoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/sfprodisplay_regular"
+                android:text="Categorias"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/spnCategorias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="12dp"
+                android:paddingVertical="8dp"
+                android:entries="@array/categoria"
+                android:gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/btnAlterar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginEnd="36dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/bordas_botoes"
+                android:fontFamily="@font/sfprodisplay_bold"
+                android:text="Alterar dados"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

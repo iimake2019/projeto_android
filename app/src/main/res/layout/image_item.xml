@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgFotoPerfil"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_gravity="right"
+            />
+        <TextView
+            android:id="@+id/txtAutor"
+            android:layout_width="335dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfprodisplay_bold"
+            android:textSize="17dp"
+            android:drawableEnd="@drawable/ic_opcoes_vert_black_24dp"
+            android:textColor="@color/texto"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_view_upload"
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:background="@drawable/insta"
+        android:layout_marginBottom="8dp" />
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/txtCategoria" android:textSize="20dp" android:text="Categoria" android:fontFamily="@font/sfprodisplay_medium"/>
+</LinearLayout>

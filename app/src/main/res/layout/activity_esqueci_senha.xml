@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".imake.Activity.Activity.EsqueciSenhaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        >
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/sfprodisplay_bold"
+                android:textColor="@color/texto"
+                android:textSize="28sp"
+                android:text="Esqueceu a sua Senha? Não tem problema, escreva aqui o e-mail que você já possui cadastro:"
+        ></TextView>
+
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="Digite seu E-mail"
+            android:textColorHint="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/btnRedefenirSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bordas_botoes"
+            android:fontFamily="@font/sfprodisplay_bold"
+            android:text="Redefinir senha"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>

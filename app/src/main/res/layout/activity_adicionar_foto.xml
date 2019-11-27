@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".imake.Activity.Activity.AdicionarFotoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/sfprodisplay_bold"
+                android:textColor="@color/texto"
+                android:textSize="28sp"
+                android:text="Adicione aqui a foto de suas produções, lembre-se de adicionar apenas uma foto por make e sua descrição."
+                ></TextView>
+
+            <ImageView
+                android:id="@+id/imgAdd"
+                android:layout_width="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="180dp"
+                />
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtNomeFoto"
+                android:layout_gravity="center_horizontal"/>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/btnEscolherFoto"
+                    android:layout_width="255dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/bordas_botoes"
+                    android:fontFamily="@font/sfprodisplay_bold"
+                    android:text="Adicionar/mudar fotos"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+                <Button
+                    android:id="@+id/btnConfirmar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/bordas_botoes"
+                    android:fontFamily="@font/sfprodisplay_bold"
+                    android:text="Confirmar"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

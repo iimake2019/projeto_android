@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".imake.Activity.Activity.LoginCadastroActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/logo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/sfprodisplay_bold"
+                android:text="Fazer login"
+                android:textColor="@color/texto"
+                android:textSize="28sp" />
+
+            <EditText
+                android:id="@+id/edtUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#C4C5C5"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:drawablePadding="8dp"
+                android:drawableTint="#1A2024"
+                android:fontFamily="@font/sfprodisplay_regular"
+                android:hint="Endereço de email"
+                android:inputType="textEmailAddress"
+                android:paddingVertical="16dp"
+                android:textColorHint="#1A2024" />
+
+            <EditText
+                android:id="@+id/edtSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#C4C5C5"
+                android:drawableStart="@drawable/ic_lock_black_24dp"
+                android:drawablePadding="8dp"
+                android:drawableTint="#1A2024"
+                android:fontFamily="@font/sfprodisplay_regular"
+                android:hint="Senha"
+                android:inputType="textPassword"
+                android:paddingVertical="16dp"
+                android:textColorHint="#1A2024" />
+
+            <Button
+                android:id="@+id/btnLogar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginEnd="36dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/bordas_botoes"
+                android:fontFamily="@font/sfprodisplay_bold"
+                android:text="Entrar"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtEsqueciSenha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/sfprodisplay_regular"
+                android:text="Esqueceu sua senha?"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnRegistrarGoogle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="36dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/botao_secundario"
+                android:fontFamily="@font/sfprodisplay_bold"
+                android:text="Registrar-se com Google"
+                android:textAllCaps="false"
+                android:textColor="#585C7C"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/sfprodisplay_regular"
+                    android:text="Ainda não tem cadastro?"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txtCadastro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/sfprodisplay_regular"
+                    android:text=" Clique aqui."
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

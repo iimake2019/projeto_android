@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "777707337606",
+    "firebase_url": "https://imake-b81bb.firebaseio.com",
+    "project_id": "imake-b81bb",
+    "storage_bucket": "imake-b81bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777707337606:android:45a018eb75ba3571",
+        "android_client_info": {
+          "package_name": "com.example.imake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777707337606-9inpceq3rbh3nte1e3mack4qao5f7v2k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.imake",
+            "certificate_hash": "5c6bdb339f842b172b299f30d641f05ad52c1933"
+          }
+        },
+        {
+          "client_id": "777707337606-5la0t6jt74q85823rf07mova3fv5o4db.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxYB9FS_KKKqwFgxlMR9XsJe9bCXGEboM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777707337606-5la0t6jt74q85823rf07mova3fv5o4db.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

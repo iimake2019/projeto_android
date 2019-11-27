@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.imake">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".imake.Activity.Activity.ChatActivity"></activity>
+        <activity android:name=".imake.Activity.Activity.MessagesActivity" />
+        <activity android:name=".imake.Activity.Activity.PerfilActivity" />
+        <activity android:name=".imake.Activity.Activity.PesquisarActivity" />
+        <activity android:name=".imake.Activity.Activity.EsqueciSenhaActivity" />
+        <activity android:name=".imake.Activity.Activity.OpcaoContaAActivity" />
+        <activity android:name=".imake.Activity.Activity.OpcoesContaActivity" />
+        <activity
+            android:name=".imake.Activity.Activity.SplashActivity"
+            android:label="@string/title_activity_drawer_navigation"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".imake.Activity.Activity.AlterarDadosActivity" />
+        <activity android:name=".imake.Activity.Activity.DesejoActivity" />
+        <activity android:name=".imake.Activity.Activity.FavoritosActivity" />
+        <activity android:name=".imake.Activity.Activity.FestaActivity" />
+        <activity android:name=".imake.Activity.Activity.DebutanteActivity" />
+        <activity android:name=".imake.Activity.Activity.FormaturaActivity" />
+        <activity android:name=".imake.Activity.Activity.CasamentoActivity" />
+        <activity android:name=".imake.Activity.Activity.ArtisticoActivity" />
+        <activity android:name=".imake.Activity.Activity.AdicionarFotoActivity" />
+        <activity android:name=".imake.Activity.Activity.FotosProfActivity" />
+        <activity android:name=".imake.Activity.Activity.ProfActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".imake.Activity.Activity.DrawerNavigationActivity" />
+        </activity>
+        <activity android:name=".imake.Activity.Activity.FeedGeralActivity" />
+        <activity
+            android:name=".imake.Activity.Activity.AmadorActivity"
+            android:label="@string/title_activity_amador"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".imake.Activity.Activity.TesteNavigationActivity"
+            android:label="@string/title_activity_teste_navigation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".imake.Activity.Activity.PerfilProfActivity" />
+        <activity android:name=".imake.Activity.Activity.PerfilAmadorActivity" />
+        <activity
+            android:name=".imake.Activity.Activity.InicialActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".imake.Activity.Activity.CadastroActivity" />
+        <activity android:name=".imake.Activity.Activity.LoginCadastroActivity" />
+        <activity android:name=".imake.Activity.Activity.QuemSomosActivity" />
+        <activity
+            android:name=".imake.Activity.Activity.DrawerNavigationActivity"
+            android:label="@string/title_activity_drawer_navigation"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+        </activity>
+    </application>
+
+</manifest>

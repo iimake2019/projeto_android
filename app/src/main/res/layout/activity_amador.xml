@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".imake.Activity.Activity.ProfActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnOpConta"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/botao_secundario"
+                android:drawableTint="@color/colorPrimary"
+                android:drawableTop="@drawable/ic_settings_black_24dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgPerfil"
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@color/basicColor3"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/txtAlterarFoto"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sfprodisplay_semibold"
+                    android:textSize="18sp"
+                    android:textColor="@color/texto"
+                    android:text="Alterar foto"/>
+
+                <ImageButton
+                    android:id="@+id/imgbConfirmar"
+                    android:layout_width="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/confirmar"
+                    android:backgroundTint="#55ACEF"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtNome"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome do Usuário"
+                android:fontFamily="@font/sfprodisplay_bold"
+                android:textSize="22sp"
+                android:textColor="@color/texto"/>
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Endereço de Email"
+                android:fontFamily="@font/sfprodisplay_regular"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

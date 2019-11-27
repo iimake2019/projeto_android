@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E3002C</color>
+    <color name="colorPrimaryDark">#D81B60</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="basicColor3">#F98397</color>
+    <color name="colorHeaderDrower">#E3002C</color>
+    <color name="fundoLogin">#FFCED4</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="colorNavigation">#E3002C</color>
+    <color name="black">#000000</color>
+    <color name="texto">#212121</color>
+    <color name="cinza">#FFCCDD</color>
+
+</resources>

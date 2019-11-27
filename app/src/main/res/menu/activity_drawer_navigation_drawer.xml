@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pesquisar"
+            android:icon="@drawable/find"
+            android:title="Pesquisar" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/perfil"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/sobre"
+            android:title="Sobre" />
+        <item
+            android:id="@+id/nav_desejos"
+            android:icon="@drawable/desejo"
+            android:title="Desejos" />
+        <item
+            android:id="@+id/nav_favoritos"
+            android:icon="@drawable/favorito"
+            android:title="Favoritos" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Explorar" />
+        <item
+            android:id="@+id/nav_categorias"
+            android:icon="@drawable/ic_categoria_black_24dp"
+            android:title="Categorias" />
+
+        <item
+            android:id="@+id/nav_categorias2"
+            android:title="Categorias"
+            android:visible="false"
+            >
+            <menu>
+                <item
+                    android:id="@+id/nav_cat_casamento"
+                    android:icon="@drawable/casamento"
+                    android:title="Casamento" />
+                <item
+                    android:id="@+id/nav_cat_artistico"
+                    android:icon="@drawable/artistico"
+                    android:title="Artistico" />
+                <item
+                    android:id="@+id/nav_cat_formatura"
+                    android:icon="@drawable/formatura"
+                    android:title="Formatura" />
+                <item
+                    android:id="@+id/nav_cat_debutante"
+                    android:icon="@drawable/debutante"
+                    android:title="Debutante" />
+                <item
+                    android:id="@+id/nav_cat_festa"
+                    android:icon="@drawable/festa"
+                    android:title="Festa" />
+                <item
+                    android:id="@+id/nav_voltar"
+                    android:icon="@drawable/voltar"
+                    android:title="Voltar" />
+            </menu>
+        </item>
+    </group>
+
+    <item
+        android:id="@+id/itemB"
+        android:title="Conta">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+</menu>

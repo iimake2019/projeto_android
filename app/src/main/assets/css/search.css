@@ -1,0 +1,80 @@
+body {
+  font-family: Times new ROMAN;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.openBtn {
+  background: #f1f1f1;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.openBtn:hover {
+  background: #bbb;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(10%, 0%, 10%,0.8);
+
+}
+
+.overlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: hotpink;
+}
+
+.overlay .closebtn:hover {
+  color: deeppink;
+}
+
+.overlay input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: pink; 
+  float: left;
+  width: 80%;
+  background: pink;
+}
+
+.overlay input[type=text]:hover {
+  background: lightpink;
+}
+
+.overlay button {
+  float: left;
+  width: 10%;
+  padding: 15px;
+  background: ;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.overlay button:hover {
+  background: #bbb;
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".imake.Activity.Activity.OpcaoContaAActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/branco"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_marginTop="300dp"
+            android:id="@+id/btnAlterarDados"
+            android:text="Alterar dados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="60dp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/sfprodisplay_bold"
+            android:background="@drawable/bordas_botoes"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"/>
+        <Button
+            android:id="@+id/btnDeletarConta"
+            android:background="@drawable/bordas_botoes"
+            android:layout_width="match_parent"
+            android:text="Deletar conta"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="60dp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/sfprodisplay_bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"/>
+        <Button
+            android:id="@+id/btnVerMensagens"
+            android:background="@drawable/bordas_botoes"
+            android:text="Visualizar mensagens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="60dp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/sfprodisplay_bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+</RelativeLayout>
